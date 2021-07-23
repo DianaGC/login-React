@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      {/* eslint-disable-next-line react/jsx-no-undef */}
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );
